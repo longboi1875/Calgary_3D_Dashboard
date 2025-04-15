@@ -1,0 +1,13 @@
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# GeoJSON output file
+processed_downtown_data.geojson 
