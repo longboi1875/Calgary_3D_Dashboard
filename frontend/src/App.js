@@ -19,8 +19,9 @@ const mapStyles = {
 };
 const DEFAULT_MAP_STYLE_KEY = 'streets';
 
-const BACKEND_URL = process.env.REACT_APP_API_URL || 'http://127.0.0.1:5000/api/buildings'; 
-const FILTER_BACKEND_URL = process.env.REACT_APP_API_URL || 'http://127.0.0.1:5000/api/filter_buildings'; 
+const BASE_API_URL = process.env.REACT_APP_API_URL || 'http://127.0.0.1:5000/api'; 
+const BACKEND_URL = `${BASE_API_URL}/buildings`; 
+const FILTER_BACKEND_URL = `${BASE_API_URL}/filter_buildings`; 
 
 // Downtown Calgary Coordinates
 const INITIAL_VIEW_STATE = {
