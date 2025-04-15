@@ -17,7 +17,7 @@ ASSESSMENTS_API_URL = "https://data.calgary.ca/resource/4bsw-nn7w.json"
 HUGGING_FACE_API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.1" # Example model
 
 # Bounding Box (WGS84: North, East, South, West) for downtown area
-BBOX_NORTH = 51.0575
+BBOX_NORTH = 51.0475
 BBOX_EAST = -114.040
 BBOX_SOUTH = 51.0375
 BBOX_WEST = -114.080
