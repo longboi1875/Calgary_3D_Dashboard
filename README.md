@@ -47,6 +47,7 @@ calgary-3d-dashboard/
 - Node.js (v14 or higher)
 - Python (v3.8 or higher)
 - npm or yarn
+- API Key for HuggingFace. Available to sign up at https://huggingface.co/
 
 ### Backend Setup
 
