@@ -8,6 +8,9 @@ import json
 from flask_cors import CORS
 import os
 
+# Get port from environment variable or use default
+port = int(os.environ.get('PORT', 5000))
+
 # --- API Endpoints ---
 BUILDINGS_API_URL = "https://data.calgary.ca/resource/cchr-krqg.json"
 ASSESSMENTS_API_URL = "https://data.calgary.ca/resource/4bsw-nn7w.json"
@@ -493,4 +496,4 @@ if __name__ == '__main__':
     print("  /api/buildings - Get all processed building data")
     print("  /api/filter_buildings?query=<your_query> - Get filtered building data")
     print("Note: Ensure HUGGING_FACE_API_KEY is set in backend/.env")
-    app.run(debug=True, use_reloader=False) # Disable reloader for stability
+    app.run(host='0.0.0.0', port=port)
