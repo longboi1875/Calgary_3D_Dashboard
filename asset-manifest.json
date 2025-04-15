@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Calgary_3D_Dashboard/static/css/main.2439e76e.css",
-    "main.js": "/Calgary_3D_Dashboard/static/js/main.ff864c26.js",
+    "main.js": "/Calgary_3D_Dashboard/static/js/main.706f0774.js",
     "static/js/453.8ab44547.chunk.js": "/Calgary_3D_Dashboard/static/js/453.8ab44547.chunk.js",
     "index.html": "/Calgary_3D_Dashboard/index.html",
     "main.2439e76e.css.map": "/Calgary_3D_Dashboard/static/css/main.2439e76e.css.map",
-    "main.ff864c26.js.map": "/Calgary_3D_Dashboard/static/js/main.ff864c26.js.map",
+    "main.706f0774.js.map": "/Calgary_3D_Dashboard/static/js/main.706f0774.js.map",
     "453.8ab44547.chunk.js.map": "/Calgary_3D_Dashboard/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2439e76e.css",
-    "static/js/main.ff864c26.js"
+    "static/js/main.706f0774.js"
   ]
 }
