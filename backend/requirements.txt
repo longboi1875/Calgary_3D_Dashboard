@@ -1,0 +1,6 @@
+Flask
+requests
+geopandas
+shapely
+pandas
+flask_cors
