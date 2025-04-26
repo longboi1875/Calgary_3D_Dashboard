@@ -1,6 +1,7 @@
 # Calgary 3D Building Dashboard
 
-A 3D visualization of Calgary's buildings using React, Three.js, and Flask. \n
+A 3D visualization of Calgary's buildings using React, Three.js, and Flask.
+
 Check it out: https://longboi1875.github.io/Calgary_3D_Dashboard/
 
 ## Overview
